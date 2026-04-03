@@ -1,6 +1,6 @@
 // src/hooks/useDebounce.ts — debounce hook for React inputs
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 /**
  * Returns a debounced copy of the value, updated after the delay.
